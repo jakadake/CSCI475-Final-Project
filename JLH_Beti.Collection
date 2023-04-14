@@ -4,6 +4,560 @@ Object class = "Collection"
 size = 2 
 item []: 
     item [1]:
+        class = "TextGrid" 
+        name = "Segment_F0_F1_F2_F3_F4_Int_Dur_B0_B1_B2_B3_B4" 
+        xmin = 0 
+        xmax = 1 
+        tiers? <exists> 
+        size = 13 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "Segment" 
+                xmin = 0 
+                xmax = 1 
+                intervals: size = 9 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.2674802513175676 
+                    text = "       " 
+                intervals [2]:
+                    xmin = 0.2674802513175676 
+                    xmax = 0.3489354830666019 
+                    text = "    a" 
+                intervals [3]:
+                    xmin = 0.3489354830666019 
+                    xmax = 0.5245050859110182 
+                    text = " s" 
+                intervals [4]:
+                    xmin = 0.5245050859110182 
+                    xmax = 0.6276943313402626 
+                    text = " a" 
+                intervals [5]:
+                    xmin = 0.6276943313402626 
+                    xmax = 0.7359297917308779 
+                    text = "m" 
+                intervals [6]:
+                    xmin = 0.7359297917308779 
+                    xmax = 0.8136651636958219 
+                    text = "  a" 
+                intervals [7]:
+                    xmin = 0.8136651636958219 
+                    xmax = 0.8758330339778766 
+                    text = "l" 
+                intervals [8]:
+                    xmin = 0.8758330339778766 
+                    xmax = 0.9461643619737365 
+                    text = "a" 
+                intervals [9]:
+                    xmin = 0.9461643619737365 
+                    xmax = 1 
+                    text = "" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "F0" 
+                xmin = 0 
+                xmax = 1 
+                intervals: size = 9 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.2674802513175676 
+                    text = "" 
+                intervals [2]:
+                    xmin = 0.2674802513175676 
+                    xmax = 0.3489354830666019 
+                    text = "117" 
+                intervals [3]:
+                    xmin = 0.3489354830666019 
+                    xmax = 0.5245050859110182 
+                    text = "116" 
+                intervals [4]:
+                    xmin = 0.5245050859110182 
+                    xmax = 0.6276943313402626 
+                    text = "123" 
+                intervals [5]:
+                    xmin = 0.6276943313402626 
+                    xmax = 0.7359297917308779 
+                    text = "125" 
+                intervals [6]:
+                    xmin = 0.7359297917308779 
+                    xmax = 0.8136651636958219 
+                    text = "131" 
+                intervals [7]:
+                    xmin = 0.8136651636958219 
+                    xmax = 0.8758330339778766 
+                    text = "127" 
+                intervals [8]:
+                    xmin = 0.8758330339778766 
+                    xmax = 0.9461643619737365 
+                    text = "127" 
+                intervals [9]:
+                    xmin = 0.9461643619737365 
+                    xmax = 1 
+                    text = "" 
+            item [3]:
+                class = "IntervalTier" 
+                name = "F1" 
+                xmin = 0 
+                xmax = 1 
+                intervals: size = 9 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.2674802513175676 
+                    text = "" 
+                intervals [2]:
+                    xmin = 0.2674802513175676 
+                    xmax = 0.3489354830666019 
+                    text = "754" 
+                intervals [3]:
+                    xmin = 0.3489354830666019 
+                    xmax = 0.5245050859110182 
+                    text = "818" 
+                intervals [4]:
+                    xmin = 0.5245050859110182 
+                    xmax = 0.6276943313402626 
+                    text = "669" 
+                intervals [5]:
+                    xmin = 0.6276943313402626 
+                    xmax = 0.7359297917308779 
+                    text = "607" 
+                intervals [6]:
+                    xmin = 0.7359297917308779 
+                    xmax = 0.8136651636958219 
+                    text = "694" 
+                intervals [7]:
+                    xmin = 0.8136651636958219 
+                    xmax = 0.8758330339778766 
+                    text = "588" 
+                intervals [8]:
+                    xmin = 0.8758330339778766 
+                    xmax = 0.9461643619737365 
+                    text = "701" 
+                intervals [9]:
+                    xmin = 0.9461643619737365 
+                    xmax = 1 
+                    text = "" 
+            item [4]:
+                class = "IntervalTier" 
+                name = "F2" 
+                xmin = 0 
+                xmax = 1 
+                intervals: size = 9 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.2674802513175676 
+                    text = "" 
+                intervals [2]:
+                    xmin = 0.2674802513175676 
+                    xmax = 0.3489354830666019 
+                    text = "1266" 
+                intervals [3]:
+                    xmin = 0.3489354830666019 
+                    xmax = 0.5245050859110182 
+                    text = "1696" 
+                intervals [4]:
+                    xmin = 0.5245050859110182 
+                    xmax = 0.6276943313402626 
+                    text = "1215" 
+                intervals [5]:
+                    xmin = 0.6276943313402626 
+                    xmax = 0.7359297917308779 
+                    text = "1053" 
+                intervals [6]:
+                    xmin = 0.7359297917308779 
+                    xmax = 0.8136651636958219 
+                    text = "1196" 
+                intervals [7]:
+                    xmin = 0.8136651636958219 
+                    xmax = 0.8758330339778766 
+                    text = "1118" 
+                intervals [8]:
+                    xmin = 0.8758330339778766 
+                    xmax = 0.9461643619737365 
+                    text = "1182" 
+                intervals [9]:
+                    xmin = 0.9461643619737365 
+                    xmax = 1 
+                    text = "" 
+            item [5]:
+                class = "IntervalTier" 
+                name = "F3" 
+                xmin = 0 
+                xmax = 1 
+                intervals: size = 9 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.2674802513175676 
+                    text = "" 
+                intervals [2]:
+                    xmin = 0.2674802513175676 
+                    xmax = 0.3489354830666019 
+                    text = "2517" 
+                intervals [3]:
+                    xmin = 0.3489354830666019 
+                    xmax = 0.5245050859110182 
+                    text = "2688" 
+                intervals [4]:
+                    xmin = 0.5245050859110182 
+                    xmax = 0.6276943313402626 
+                    text = "2557" 
+                intervals [5]:
+                    xmin = 0.6276943313402626 
+                    xmax = 0.7359297917308779 
+                    text = "2824" 
+                intervals [6]:
+                    xmin = 0.7359297917308779 
+                    xmax = 0.8136651636958219 
+                    text = "2599" 
+                intervals [7]:
+                    xmin = 0.8136651636958219 
+                    xmax = 0.8758330339778766 
+                    text = "2638" 
+                intervals [8]:
+                    xmin = 0.8758330339778766 
+                    xmax = 0.9461643619737365 
+                    text = "2481" 
+                intervals [9]:
+                    xmin = 0.9461643619737365 
+                    xmax = 1 
+                    text = "" 
+            item [6]:
+                class = "IntervalTier" 
+                name = "F4" 
+                xmin = 0 
+                xmax = 1 
+                intervals: size = 9 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.2674802513175676 
+                    text = "" 
+                intervals [2]:
+                    xmin = 0.2674802513175676 
+                    xmax = 0.3489354830666019 
+                    text = "3956" 
+                intervals [3]:
+                    xmin = 0.3489354830666019 
+                    xmax = 0.5245050859110182 
+                    text = "3819" 
+                intervals [4]:
+                    xmin = 0.5245050859110182 
+                    xmax = 0.6276943313402626 
+                    text = "3702" 
+                intervals [5]:
+                    xmin = 0.6276943313402626 
+                    xmax = 0.7359297917308779 
+                    text = "3737" 
+                intervals [6]:
+                    xmin = 0.7359297917308779 
+                    xmax = 0.8136651636958219 
+                    text = "3323" 
+                intervals [7]:
+                    xmin = 0.8136651636958219 
+                    xmax = 0.8758330339778766 
+                    text = "3788" 
+                intervals [8]:
+                    xmin = 0.8758330339778766 
+                    xmax = 0.9461643619737365 
+                    text = "3657" 
+                intervals [9]:
+                    xmin = 0.9461643619737365 
+                    xmax = 1 
+                    text = "" 
+            item [7]:
+                class = "IntervalTier" 
+                name = "Int" 
+                xmin = 0 
+                xmax = 1 
+                intervals: size = 9 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.2674802513175676 
+                    text = "" 
+                intervals [2]:
+                    xmin = 0.2674802513175676 
+                    xmax = 0.3489354830666019 
+                    text = "81" 
+                intervals [3]:
+                    xmin = 0.3489354830666019 
+                    xmax = 0.5245050859110182 
+                    text = "74" 
+                intervals [4]:
+                    xmin = 0.5245050859110182 
+                    xmax = 0.6276943313402626 
+                    text = "83" 
+                intervals [5]:
+                    xmin = 0.6276943313402626 
+                    xmax = 0.7359297917308779 
+                    text = "78" 
+                intervals [6]:
+                    xmin = 0.7359297917308779 
+                    xmax = 0.8136651636958219 
+                    text = "83" 
+                intervals [7]:
+                    xmin = 0.8136651636958219 
+                    xmax = 0.8758330339778766 
+                    text = "82" 
+                intervals [8]:
+                    xmin = 0.8758330339778766 
+                    xmax = 0.9461643619737365 
+                    text = "82" 
+                intervals [9]:
+                    xmin = 0.9461643619737365 
+                    xmax = 1 
+                    text = "" 
+            item [8]:
+                class = "IntervalTier" 
+                name = "Dur" 
+                xmin = 0 
+                xmax = 1 
+                intervals: size = 9 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.2674802513175676 
+                    text = "" 
+                intervals [2]:
+                    xmin = 0.2674802513175676 
+                    xmax = 0.3489354830666019 
+                    text = "81" 
+                intervals [3]:
+                    xmin = 0.3489354830666019 
+                    xmax = 0.5245050859110182 
+                    text = "175" 
+                intervals [4]:
+                    xmin = 0.5245050859110182 
+                    xmax = 0.6276943313402626 
+                    text = "103" 
+                intervals [5]:
+                    xmin = 0.6276943313402626 
+                    xmax = 0.7359297917308779 
+                    text = "108" 
+                intervals [6]:
+                    xmin = 0.7359297917308779 
+                    xmax = 0.8136651636958219 
+                    text = "77" 
+                intervals [7]:
+                    xmin = 0.8136651636958219 
+                    xmax = 0.8758330339778766 
+                    text = "62" 
+                intervals [8]:
+                    xmin = 0.8758330339778766 
+                    xmax = 0.9461643619737365 
+                    text = "70" 
+                intervals [9]:
+                    xmin = 0.9461643619737365 
+                    xmax = 1 
+                    text = "" 
+            item [9]:
+                class = "IntervalTier" 
+                name = "B0" 
+                xmin = 0 
+                xmax = 1 
+                intervals: size = 9 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.2674802513175676 
+                    text = "" 
+                intervals [2]:
+                    xmin = 0.2674802513175676 
+                    xmax = 0.3489354830666019 
+                    text = "" 
+                intervals [3]:
+                    xmin = 0.3489354830666019 
+                    xmax = 0.5245050859110182 
+                    text = "" 
+                intervals [4]:
+                    xmin = 0.5245050859110182 
+                    xmax = 0.6276943313402626 
+                    text = "" 
+                intervals [5]:
+                    xmin = 0.6276943313402626 
+                    xmax = 0.7359297917308779 
+                    text = "" 
+                intervals [6]:
+                    xmin = 0.7359297917308779 
+                    xmax = 0.8136651636958219 
+                    text = "" 
+                intervals [7]:
+                    xmin = 0.8136651636958219 
+                    xmax = 0.8758330339778766 
+                    text = "" 
+                intervals [8]:
+                    xmin = 0.8758330339778766 
+                    xmax = 0.9461643619737365 
+                    text = "" 
+                intervals [9]:
+                    xmin = 0.9461643619737365 
+                    xmax = 1 
+                    text = "" 
+            item [10]:
+                class = "IntervalTier" 
+                name = "B1" 
+                xmin = 0 
+                xmax = 1 
+                intervals: size = 9 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.2674802513175676 
+                    text = "" 
+                intervals [2]:
+                    xmin = 0.2674802513175676 
+                    xmax = 0.3489354830666019 
+                    text = "230" 
+                intervals [3]:
+                    xmin = 0.3489354830666019 
+                    xmax = 0.5245050859110182 
+                    text = "133" 
+                intervals [4]:
+                    xmin = 0.5245050859110182 
+                    xmax = 0.6276943313402626 
+                    text = "63" 
+                intervals [5]:
+                    xmin = 0.6276943313402626 
+                    xmax = 0.7359297917308779 
+                    text = "715" 
+                intervals [6]:
+                    xmin = 0.7359297917308779 
+                    xmax = 0.8136651636958219 
+                    text = "117" 
+                intervals [7]:
+                    xmin = 0.8136651636958219 
+                    xmax = 0.8758330339778766 
+                    text = "87" 
+                intervals [8]:
+                    xmin = 0.8758330339778766 
+                    xmax = 0.9461643619737365 
+                    text = "44" 
+                intervals [9]:
+                    xmin = 0.9461643619737365 
+                    xmax = 1 
+                    text = "" 
+            item [11]:
+                class = "IntervalTier" 
+                name = "B2" 
+                xmin = 0 
+                xmax = 1 
+                intervals: size = 9 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.2674802513175676 
+                    text = "" 
+                intervals [2]:
+                    xmin = 0.2674802513175676 
+                    xmax = 0.3489354830666019 
+                    text = "257" 
+                intervals [3]:
+                    xmin = 0.3489354830666019 
+                    xmax = 0.5245050859110182 
+                    text = "835" 
+                intervals [4]:
+                    xmin = 0.5245050859110182 
+                    xmax = 0.6276943313402626 
+                    text = "115" 
+                intervals [5]:
+                    xmin = 0.6276943313402626 
+                    xmax = 0.7359297917308779 
+                    text = "1221" 
+                intervals [6]:
+                    xmin = 0.7359297917308779 
+                    xmax = 0.8136651636958219 
+                    text = "99" 
+                intervals [7]:
+                    xmin = 0.8136651636958219 
+                    xmax = 0.8758330339778766 
+                    text = "151" 
+                intervals [8]:
+                    xmin = 0.8758330339778766 
+                    xmax = 0.9461643619737365 
+                    text = "159" 
+                intervals [9]:
+                    xmin = 0.9461643619737365 
+                    xmax = 1 
+                    text = "" 
+            item [12]:
+                class = "IntervalTier" 
+                name = "B3" 
+                xmin = 0 
+                xmax = 1 
+                intervals: size = 9 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.2674802513175676 
+                    text = "" 
+                intervals [2]:
+                    xmin = 0.2674802513175676 
+                    xmax = 0.3489354830666019 
+                    text = "228" 
+                intervals [3]:
+                    xmin = 0.3489354830666019 
+                    xmax = 0.5245050859110182 
+                    text = "680" 
+                intervals [4]:
+                    xmin = 0.5245050859110182 
+                    xmax = 0.6276943313402626 
+                    text = "524" 
+                intervals [5]:
+                    xmin = 0.6276943313402626 
+                    xmax = 0.7359297917308779 
+                    text = "804" 
+                intervals [6]:
+                    xmin = 0.7359297917308779 
+                    xmax = 0.8136651636958219 
+                    text = "736" 
+                intervals [7]:
+                    xmin = 0.8136651636958219 
+                    xmax = 0.8758330339778766 
+                    text = "324" 
+                intervals [8]:
+                    xmin = 0.8758330339778766 
+                    xmax = 0.9461643619737365 
+                    text = "243" 
+                intervals [9]:
+                    xmin = 0.9461643619737365 
+                    xmax = 1 
+                    text = "" 
+            item [13]:
+                class = "IntervalTier" 
+                name = "B4" 
+                xmin = 0 
+                xmax = 1 
+                intervals: size = 9 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.2674802513175676 
+                    text = "" 
+                intervals [2]:
+                    xmin = 0.2674802513175676 
+                    xmax = 0.3489354830666019 
+                    text = "934" 
+                intervals [3]:
+                    xmin = 0.3489354830666019 
+                    xmax = 0.5245050859110182 
+                    text = "449" 
+                intervals [4]:
+                    xmin = 0.5245050859110182 
+                    xmax = 0.6276943313402626 
+                    text = "881" 
+                intervals [5]:
+                    xmin = 0.6276943313402626 
+                    xmax = 0.7359297917308779 
+                    text = "5035" 
+                intervals [6]:
+                    xmin = 0.7359297917308779 
+                    xmax = 0.8136651636958219 
+                    text = "459" 
+                intervals [7]:
+                    xmin = 0.8136651636958219 
+                    xmax = 0.8758330339778766 
+                    text = "820" 
+                intervals [8]:
+                    xmin = 0.8758330339778766 
+                    xmax = 0.9461643619737365 
+                    text = "474" 
+                intervals [9]:
+                    xmin = 0.9461643619737365 
+                    xmax = 1 
+                    text = "" 
+    item [2]:
         class = "Sound 2" 
         name = "Female5" 
         xmin = 0 
@@ -23832,141 +24386,3 @@ item []:
                 z [1] [23812] = -0.000213623046875 
                 z [1] [23813] = -0.00018310546875 
                 z [1] [23814] = -0.000396728515625 
-    item [2]:
-        class = "TextGrid" 
-        name = "Segment_F0_F1_F2_F3_F4_Int_Dur_B0_B1_B2_B3_B4" 
-        xmin = 0 
-        xmax = 1 
-        tiers? <exists> 
-        size = 13 
-        item []: 
-            item [1]:
-                class = "IntervalTier" 
-                name = "Segment" 
-                xmin = 0 
-                xmax = 1 
-                intervals: size = 1 
-                intervals [1]:
-                    xmin = 0 
-                    xmax = 1 
-                    text = "" 
-            item [2]:
-                class = "IntervalTier" 
-                name = "F0" 
-                xmin = 0 
-                xmax = 1 
-                intervals: size = 1 
-                intervals [1]:
-                    xmin = 0 
-                    xmax = 1 
-                    text = "" 
-            item [3]:
-                class = "IntervalTier" 
-                name = "F1" 
-                xmin = 0 
-                xmax = 1 
-                intervals: size = 1 
-                intervals [1]:
-                    xmin = 0 
-                    xmax = 1 
-                    text = "" 
-            item [4]:
-                class = "IntervalTier" 
-                name = "F2" 
-                xmin = 0 
-                xmax = 1 
-                intervals: size = 1 
-                intervals [1]:
-                    xmin = 0 
-                    xmax = 1 
-                    text = "" 
-            item [5]:
-                class = "IntervalTier" 
-                name = "F3" 
-                xmin = 0 
-                xmax = 1 
-                intervals: size = 1 
-                intervals [1]:
-                    xmin = 0 
-                    xmax = 1 
-                    text = "" 
-            item [6]:
-                class = "IntervalTier" 
-                name = "F4" 
-                xmin = 0 
-                xmax = 1 
-                intervals: size = 1 
-                intervals [1]:
-                    xmin = 0 
-                    xmax = 1 
-                    text = "" 
-            item [7]:
-                class = "IntervalTier" 
-                name = "Int" 
-                xmin = 0 
-                xmax = 1 
-                intervals: size = 1 
-                intervals [1]:
-                    xmin = 0 
-                    xmax = 1 
-                    text = "" 
-            item [8]:
-                class = "IntervalTier" 
-                name = "Dur" 
-                xmin = 0 
-                xmax = 1 
-                intervals: size = 1 
-                intervals [1]:
-                    xmin = 0 
-                    xmax = 1 
-                    text = "" 
-            item [9]:
-                class = "IntervalTier" 
-                name = "B0" 
-                xmin = 0 
-                xmax = 1 
-                intervals: size = 1 
-                intervals [1]:
-                    xmin = 0 
-                    xmax = 1 
-                    text = "" 
-            item [10]:
-                class = "IntervalTier" 
-                name = "B1" 
-                xmin = 0 
-                xmax = 1 
-                intervals: size = 1 
-                intervals [1]:
-                    xmin = 0 
-                    xmax = 1 
-                    text = "" 
-            item [11]:
-                class = "IntervalTier" 
-                name = "B2" 
-                xmin = 0 
-                xmax = 1 
-                intervals: size = 1 
-                intervals [1]:
-                    xmin = 0 
-                    xmax = 1 
-                    text = "" 
-            item [12]:
-                class = "IntervalTier" 
-                name = "B3" 
-                xmin = 0 
-                xmax = 1 
-                intervals: size = 1 
-                intervals [1]:
-                    xmin = 0 
-                    xmax = 1 
-                    text = "" 
-            item [13]:
-                class = "IntervalTier" 
-                name = "B4" 
-                xmin = 0 
-                xmax = 1 
-                intervals: size = 1 
-                intervals [1]:
-                    xmin = 0 
-                    xmax = 1 
-                    text = "" 

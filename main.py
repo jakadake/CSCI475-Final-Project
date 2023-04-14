@@ -1,16 +1,20 @@
-# This is a sample Python script.
+# look for transition regions in the waveform data of a sound
+# periods of rapid change with an inconsistent slope sign transitioning
+#   from several values in a row with the same slope can indicate a
+#   change in the phoneme/segment
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# vary the sound produced by the klaat grid randomly within some
+#   limit values just below the JND for that formant to create a dynamic
+#   and more natural sounding voice
 
+# define the klaat grid with the overall duration of the sound as the length
+#
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def main():
 
-
+    return True
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    main()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
