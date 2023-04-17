@@ -7,7 +7,7 @@ item []:
         class = "TextGrid" 
         name = "Segment_F0_F1_F2_F3_F4_Int_Dur_B0_B1_B2_B3_B4" 
         xmin = 0 
-        xmax = 1 
+        xmax = 1.2 
         tiers? <exists> 
         size = 13 
         item []: 
@@ -15,8 +15,8 @@ item []:
                 class = "IntervalTier" 
                 name = "Segment" 
                 xmin = 0 
-                xmax = 1 
-                intervals: size = 9 
+                xmax = 1.2 
+                intervals: size = 10 
                 intervals [1]:
                     xmin = 0 
                     xmax = 0.2674802513175676 
@@ -53,12 +53,16 @@ item []:
                     xmin = 0.9461643619737365 
                     xmax = 1 
                     text = "" 
+                intervals [10]:
+                    xmin = 1 
+                    xmax = 1.2 
+                    text = "" 
             item [2]:
                 class = "IntervalTier" 
                 name = "F0" 
                 xmin = 0 
-                xmax = 1 
-                intervals: size = 9 
+                xmax = 1.2 
+                intervals: size = 10 
                 intervals [1]:
                     xmin = 0 
                     xmax = 0.2674802513175676 
@@ -95,12 +99,16 @@ item []:
                     xmin = 0.9461643619737365 
                     xmax = 1 
                     text = "" 
+                intervals [10]:
+                    xmin = 1 
+                    xmax = 1.2 
+                    text = "" 
             item [3]:
                 class = "IntervalTier" 
                 name = "F1" 
                 xmin = 0 
-                xmax = 1 
-                intervals: size = 9 
+                xmax = 1.2 
+                intervals: size = 10 
                 intervals [1]:
                     xmin = 0 
                     xmax = 0.2674802513175676 
@@ -137,12 +145,16 @@ item []:
                     xmin = 0.9461643619737365 
                     xmax = 1 
                     text = "" 
+                intervals [10]:
+                    xmin = 1 
+                    xmax = 1.2 
+                    text = "" 
             item [4]:
                 class = "IntervalTier" 
                 name = "F2" 
                 xmin = 0 
-                xmax = 1 
-                intervals: size = 9 
+                xmax = 1.2 
+                intervals: size = 10 
                 intervals [1]:
                     xmin = 0 
                     xmax = 0.2674802513175676 
@@ -179,12 +191,16 @@ item []:
                     xmin = 0.9461643619737365 
                     xmax = 1 
                     text = "" 
+                intervals [10]:
+                    xmin = 1 
+                    xmax = 1.2 
+                    text = "" 
             item [5]:
                 class = "IntervalTier" 
                 name = "F3" 
                 xmin = 0 
-                xmax = 1 
-                intervals: size = 9 
+                xmax = 1.2 
+                intervals: size = 10 
                 intervals [1]:
                     xmin = 0 
                     xmax = 0.2674802513175676 
@@ -221,12 +237,16 @@ item []:
                     xmin = 0.9461643619737365 
                     xmax = 1 
                     text = "" 
+                intervals [10]:
+                    xmin = 1 
+                    xmax = 1.2 
+                    text = "" 
             item [6]:
                 class = "IntervalTier" 
                 name = "F4" 
                 xmin = 0 
-                xmax = 1 
-                intervals: size = 9 
+                xmax = 1.2 
+                intervals: size = 10 
                 intervals [1]:
                     xmin = 0 
                     xmax = 0.2674802513175676 
@@ -263,12 +283,16 @@ item []:
                     xmin = 0.9461643619737365 
                     xmax = 1 
                     text = "" 
+                intervals [10]:
+                    xmin = 1 
+                    xmax = 1.2 
+                    text = "" 
             item [7]:
                 class = "IntervalTier" 
                 name = "Int" 
                 xmin = 0 
-                xmax = 1 
-                intervals: size = 9 
+                xmax = 1.2 
+                intervals: size = 10 
                 intervals [1]:
                     xmin = 0 
                     xmax = 0.2674802513175676 
@@ -305,12 +329,16 @@ item []:
                     xmin = 0.9461643619737365 
                     xmax = 1 
                     text = "" 
+                intervals [10]:
+                    xmin = 1 
+                    xmax = 1.2 
+                    text = "" 
             item [8]:
                 class = "IntervalTier" 
                 name = "Dur" 
                 xmin = 0 
-                xmax = 1 
-                intervals: size = 9 
+                xmax = 1.2 
+                intervals: size = 10 
                 intervals [1]:
                     xmin = 0 
                     xmax = 0.2674802513175676 
@@ -347,12 +375,16 @@ item []:
                     xmin = 0.9461643619737365 
                     xmax = 1 
                     text = "" 
+                intervals [10]:
+                    xmin = 1 
+                    xmax = 1.2 
+                    text = "" 
             item [9]:
                 class = "IntervalTier" 
                 name = "B0" 
                 xmin = 0 
-                xmax = 1 
-                intervals: size = 9 
+                xmax = 1.2 
+                intervals: size = 10 
                 intervals [1]:
                     xmin = 0 
                     xmax = 0.2674802513175676 
@@ -389,12 +421,16 @@ item []:
                     xmin = 0.9461643619737365 
                     xmax = 1 
                     text = "" 
+                intervals [10]:
+                    xmin = 1 
+                    xmax = 1.2 
+                    text = "" 
             item [10]:
                 class = "IntervalTier" 
                 name = "B1" 
                 xmin = 0 
-                xmax = 1 
-                intervals: size = 9 
+                xmax = 1.2 
+                intervals: size = 10 
                 intervals [1]:
                     xmin = 0 
                     xmax = 0.2674802513175676 
@@ -431,12 +467,16 @@ item []:
                     xmin = 0.9461643619737365 
                     xmax = 1 
                     text = "" 
+                intervals [10]:
+                    xmin = 1 
+                    xmax = 1.2 
+                    text = "" 
             item [11]:
                 class = "IntervalTier" 
                 name = "B2" 
                 xmin = 0 
-                xmax = 1 
-                intervals: size = 9 
+                xmax = 1.2 
+                intervals: size = 10 
                 intervals [1]:
                     xmin = 0 
                     xmax = 0.2674802513175676 
@@ -473,12 +513,16 @@ item []:
                     xmin = 0.9461643619737365 
                     xmax = 1 
                     text = "" 
+                intervals [10]:
+                    xmin = 1 
+                    xmax = 1.2 
+                    text = "" 
             item [12]:
                 class = "IntervalTier" 
                 name = "B3" 
                 xmin = 0 
-                xmax = 1 
-                intervals: size = 9 
+                xmax = 1.2 
+                intervals: size = 10 
                 intervals [1]:
                     xmin = 0 
                     xmax = 0.2674802513175676 
@@ -515,12 +559,16 @@ item []:
                     xmin = 0.9461643619737365 
                     xmax = 1 
                     text = "" 
+                intervals [10]:
+                    xmin = 1 
+                    xmax = 1.2 
+                    text = "" 
             item [13]:
                 class = "IntervalTier" 
                 name = "B4" 
                 xmin = 0 
-                xmax = 1 
-                intervals: size = 9 
+                xmax = 1.2 
+                intervals: size = 10 
                 intervals [1]:
                     xmin = 0 
                     xmax = 0.2674802513175676 
@@ -556,6 +604,10 @@ item []:
                 intervals [9]:
                     xmin = 0.9461643619737365 
                     xmax = 1 
+                    text = "" 
+                intervals [10]:
+                    xmin = 1 
+                    xmax = 1.2 
                     text = "" 
     item [2]:
         class = "Sound 2" 

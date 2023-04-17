@@ -6,9 +6,13 @@
 # vary the sound produced by the klaat grid randomly within some
 #   limit values just below the JND for that formant to create a dynamic
 #   and more natural sounding voice
+#   * aspiration can do this
 
-# define the klaat grid with the overall duration of the sound as the length
+# define the klat grid with the overall duration of the sound as the length
 #
+
+# generate a script with lines corresponding to changes in the pitch,
+#   - values taken from parselmouth output data?
 
 def main():
 
