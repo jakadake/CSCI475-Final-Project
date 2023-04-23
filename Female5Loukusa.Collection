@@ -23845,15 +23845,19 @@ item []:
                 name = "Word" 
                 xmin = 0 
                 xmax = 1.488375 
-                intervals: size = 2 
+                intervals: size = 3 
                 intervals [1]:
                     xmin = 0 
                     xmax = 0.26693021708998743 
                     text = " " 
                 intervals [2]:
                     xmin = 0.26693021708998743 
-                    xmax = 1.488375 
+                    xmax = 0.9500432820451266 
                     text = "[a.'sa.ma.la]" 
+                intervals [3]:
+                    xmin = 0.9500432820451266 
+                    xmax = 1.488375 
+                    text = "" 
             item [2]:
                 class = "IntervalTier" 
                 name = "Segment" 

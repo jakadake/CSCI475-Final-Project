@@ -66,4 +66,4 @@ Add oral formant bandwidth point... 3 0.5 800
 Add oral formant frequency point... 4 0.5 3248
 Add oral formant bandwidth point... 4 0.5 401
 
-To Sound
+;To Sound
