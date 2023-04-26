@@ -18,41 +18,57 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os.path as path
 
-def generate_waveforms(orig: str, auto: str, man: str)
+def generate_waveforms(orig: str, auto: str):
+    sounds = [pm.Sound(orig),
+              pm.Sound(auto)]
+    plt.figure(figsize=(19.2, 10.8))
+    for i, snd in enumerate(sounds):
+        plt.subplot(3, 1, i+1)
+        plt.plot(snd.xs(), snd.values.T)
+        plt.xlim([snd.xmin, snd.xmax])
+        if i == 0:
+            plt.title(orig.replace(".wav", ""))
+        else:
+            plt.title(auto.replace(".wav", ""))
+        plt.xlabel("time [s]")
+        plt.ylabel("amplitude")
+    plt.savefig("waveforms.png")
     return True
-def generate_spectrograms(orig: str, auto: str, man: str):
-        sounds = [pm.Sound(orig),
-                  pm.Sound(auto),
-                  pm.Sound(man)]
+def generate_spectrograms(orig: str, auto: str, d_r = 70):
+    sounds = [pm.Sound(orig),
+              pm.Sound(auto)]
 
-        plt.figure(figsize=(10.8, 19.2))
+    plt.figure(figsize=(19.2, 10.8))
 
-        for i, snd in enumerate(sounds):
-            plt.subplot(3, 1, i+1)
-            spect = sounds[i].to_spect()
-            X, Y = spect.x_grid(), spect.y_grid()
-            sg_db = 10 * np.log10(spect.values)
-            plt.pcolormesh(X, Y, sg_db, vmin=sg_db.max() - dynamic_range, label="spect", cmap='binary', alpha=0.7)
-            plt.ylim([spect.ymin, 5000])
-            plt.xlabel("time [s]")
-            plt.ylabel("frequency [Hz]")
+    for i, snd in enumerate(sounds):
+        plt.subplot(3, 1, i+1)
+        spect = sounds[i].to_spectrogram()
+        X, Y = spect.x_grid(), spect.y_grid()
+        sg_db = 10 * np.log10(spect.values)
+        plt.pcolormesh(X, Y, sg_db, vmin=sg_db.max() - d_r, label="spect", cmap='magma', alpha=0.7)
+        plt.ylim([spect.ymin, 5000])
+        if i == 0:
+            plt.title(orig.replace(".wav", ""))
+        else:
+            plt.title(auto.replace(".wav", ""))
+        plt.xlabel("time [s]")
+        plt.ylabel("frequency [Hz]")
+    # end for
+    plt.savefig("spectrograms.png")
 
 
 def main():
     orig = "original.wav"
-    auto = "automatic.wav"
-    man = "manual.wav"
+    auto = "automated.wav"
 
     exist = path.exists(orig) \
-            and path.exists(auto) \
-            and path.exists(man)
+            and path.exists(auto)
     corr_format = orig.endswith(".wav") \
-                  and auto.endswith(".wav") \
-                  and man.endswith(".wav")
+                  and auto.endswith(".wav")
 
     if exist and corr_format:
-        generate_spectrograms(orig, auto, man)
-        generate_waveforms(orig, auto, man)
+        generate_spectrograms(orig, auto)
+        generate_waveforms(orig, auto)
         return True
     else:
         print("Files not found.\n"
