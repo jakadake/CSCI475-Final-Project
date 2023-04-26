@@ -32,7 +32,7 @@ def generate_waveforms(orig: str, auto: str):
             plt.title(auto.replace(".wav", ""))
         plt.xlabel("time [s]")
         plt.ylabel("amplitude")
-    plt.savefig("waveforms.png")
+    plt.savefig("waveforms.png", bbox_inches='tight')
     return True
 def generate_spectrograms(orig: str, auto: str, d_r = 70):
     sounds = [pm.Sound(orig),
@@ -54,7 +54,7 @@ def generate_spectrograms(orig: str, auto: str, d_r = 70):
         plt.xlabel("time [s]")
         plt.ylabel("frequency [Hz]")
     # end for
-    plt.savefig("spectrograms.png")
+    plt.savefig("spectrograms.png", bbox_inches='tight')
 
 
 def main():
