@@ -21,7 +21,7 @@ Add oral formant bandwidth point: 3, 0, 277
 Add oral formant frequency point: 4, 0, 3906
 Add oral formant bandwidth point: 4, 0, 751
 
-# 's'
+# 'S'
 Add pitch point: 0.106, 117
 Add voicing amplitude point: 0.106, 74
 
@@ -42,7 +42,7 @@ Add oral formant bandwidth point: 3, 0.106, 799
 Add oral formant frequency point: 4, 0.106, 3830
 Add oral formant bandwidth point: 4, 0.106, 916
 
-Add voicing amplitude point: 0.209, 0
+Add voicing amplitude point: 0.209, 25
 
 # 'A'
 Add pitch point: 0.258, 124
@@ -128,10 +128,10 @@ Add frication amplitude point: 0.597, 5
 Add frication bypass point: 0.5, 0.597
 
 Add oral formant frequency point: 1, 0.597, 690
-Add oral formant bandwidth point: 1, 0.597, 94
+Add oral formant bandwidth point: 1, 0.597, 39
 
 Add oral formant frequency point: 2, 0.597, 1172
-Add oral formant bandwidth point: 2, 0.597, 182
+Add oral formant bandwidth point: 2, 0.597, 144
 
 Add oral formant frequency point: 3, 0.597, 2490
 Add oral formant bandwidth point: 3, 0.597, 287
