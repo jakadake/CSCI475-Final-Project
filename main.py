@@ -1,24 +1,69 @@
-# look for transition regions in the waveform data of a sound
-# periods of rapid change with an inconsistent slope sign transitioning
-#   from several values in a row with the same slope can indicate a
-#   change in the phoneme/segment
-
-# vary the sound produced by the klaat grid randomly within some
-#   limit values just below the JND for that formant to create a dynamic
-#   and more natural sounding voice
-#   * aspiration can do this
-
-# define the klat grid with the overall duration of the sound as the length
+#############################################################################
 #
+#   main.py
+#
+#       Desc: A script meant for visualizing audio data from .wav files
+#
+#       Pre: sounds labeled original.wav, automated.wav, and manual.wav exist
+#           in the same folder as this .py script
+#
+#       post: two .png format images are generated, one showing the waveforms
+#           and the other showing the spectrograms for all three sounds
+#           stacked vertically
+#
+#############################################################################
 
-# generate a script with lines corresponding to changes in the pitch,
-#   - values taken from parselmouth output data?
+import parselmouth as pm
+import numpy as np
+import matplotlib.pyplot as plt
+import os.path as path
+
+def generate_waveforms(orig: str, auto: str, man: str)
+    return True
+def generate_spectrograms(orig: str, auto: str, man: str):
+        sounds = [pm.Sound(orig),
+                  pm.Sound(auto),
+                  pm.Sound(man)]
+
+        plt.figure(figsize=(10.8, 19.2))
+
+        for i, snd in enumerate(sounds):
+            plt.subplot(3, 1, i+1)
+            spect = sounds[i].to_spect()
+            X, Y = spect.x_grid(), spect.y_grid()
+            sg_db = 10 * np.log10(spect.values)
+            plt.pcolormesh(X, Y, sg_db, vmin=sg_db.max() - dynamic_range, label="spect", cmap='binary', alpha=0.7)
+            plt.ylim([spect.ymin, 5000])
+            plt.xlabel("time [s]")
+            plt.ylabel("frequency [Hz]")
+
 
 def main():
+    orig = "original.wav"
+    auto = "automatic.wav"
+    man = "manual.wav"
 
-    return True
-# Press the green button in the gutter to run the script.
+    exist = path.exists(orig) \
+            and path.exists(auto) \
+            and path.exists(man)
+    corr_format = orig.endswith(".wav") \
+                  and auto.endswith(".wav") \
+                  and man.endswith(".wav")
+
+    if exist and corr_format:
+        generate_spectrograms(orig, auto, man)
+        generate_waveforms(orig, auto, man)
+        return True
+    else:
+        print("Files not found.\n"
+              "Make sure that all three wave files below exist in the source directory:\n"
+              "original.wav\n"
+              "automatic.wav\n"
+              "manual.wav\n"
+              "\n"
+              "Exiting...")
+        return False
+
+
 if __name__ == '__main__':
     main()
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/

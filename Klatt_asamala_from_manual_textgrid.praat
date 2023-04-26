@@ -1,4 +1,4 @@
-Create KlattGrid: "asamala", 0, 0.68, 6, 1, 1, 6, 1, 1, 1
+Create KlattGrid: "manual asamala", 0, 0.68, 6, 1, 1, 6, 1, 1, 1
 
 Add flutter point: 0, 0.25
 

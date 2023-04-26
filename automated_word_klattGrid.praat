@@ -126,7 +126,7 @@ klattGrid = Create KlattGrid: "from your word", 0, total_duration, 6, 1, 1, 6, 1
 	elsif interval_label$ == "1"
 	  Add frication amplitude point: t1_klatt, 60
 	  Add frication bypass point: 0.5, t1_klatt
-	  Add voicing amplitude point: t1_klatt+0.103, 0
+	  Add voicing amplitude point: t1_klatt+(t1_klatt * 0.6), 0
 	else
 	  exitScript: "Please place zeros and ones in the frication tier."
 	endif
