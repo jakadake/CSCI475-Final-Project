@@ -1,6 +1,6 @@
 #############################################################################
 #
-#   main.py
+#   analysis.py
 #
 #       Desc: A script meant for visualizing audio data from .wav files
 #
@@ -21,18 +21,20 @@ import os.path as path
 def generate_waveforms(orig: str, auto: str):
     sounds = [pm.Sound(orig),
               pm.Sound(auto)]
-    plt.figure(figsize=(19.2, 10.8))
+    plt.figure(figsize=(38.4, 21.6))
 
     for i, snd in enumerate(sounds):
         plt.subplot(3, 1, i+1)
         plt.plot(snd.xs(), snd.values.T)
         plt.xlim([snd.xmin, snd.xmax])
         if i == 0:
-            plt.title(orig.replace(".wav", ""))
+            plt.title(orig.replace(".wav", ""), fontsize=40)
         else:
-            plt.title(auto.replace(".wav", ""))
-        plt.xlabel("time [s]")
-        plt.ylabel("amplitude")
+            plt.title(auto.replace(".wav", ""), fontsize=40)
+        plt.xlabel("time [s]", fontsize=40)
+        plt.xticks(fontsize=20)
+        plt.ylabel("amplitude [Hz]", fontsize=40)
+        plt.yticks(fontsize=20)
     plt.tight_layout()
     plt.savefig("waveforms.png", bbox_inches='tight')
     return True
@@ -40,7 +42,7 @@ def generate_spectrograms(orig: str, auto: str, d_r = 70):
     sounds = [pm.Sound(orig),
               pm.Sound(auto)]
 
-    plt.figure(figsize=(19.2, 10.8))
+    plt.figure(figsize=(38.4, 21.6))
 
     for i, snd in enumerate(sounds):
         plt.subplot(3, 1, i+1)
@@ -50,15 +52,16 @@ def generate_spectrograms(orig: str, auto: str, d_r = 70):
         plt.pcolormesh(X, Y, sg_db, vmin=sg_db.max() - d_r, label="spect", cmap='magma', alpha=0.7)
         plt.ylim([spect.ymin, 5000])
         if i == 0:
-            plt.title(orig.replace(".wav", ""))
+            plt.title(orig.replace(".wav", ""), fontsize=40)
         else:
-            plt.title(auto.replace(".wav", ""))
-        plt.xlabel("time [s]")
-        plt.ylabel("frequency [Hz]")
+            plt.title(auto.replace(".wav", ""), fontsize=40)
+        plt.xlabel("time [s]", fontsize=40)
+        plt.xticks(fontsize=20)
+        plt.ylabel("frequency [Hz]", fontsize=40)
+        plt.yticks(fontsize=20)
     # end for
     plt.tight_layout()
     plt.savefig("spectrograms.png", bbox_inches='tight')
-
 
 def main():
     orig = "original.wav"
